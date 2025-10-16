@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(106, 106, 139);
+}
+.form{
+    background-color: white;
+    width: 96%;
+    margin: 1% 2%;
+    border-radius: 20px;
+    padding: 20px 0px;
+}
+.form_container{
+    display: flex;
+   
+
+}
+h1{
+    font-size: 45px;
+    color: orangered;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgb(221, 214, 214);
+    margin: 0% 4%;
+}
+.line-text {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+label, div,button{
+    color: rgb(75, 72, 72);
+}
+.line-text span {
+  margin-right: 10px; 
+  font-size: 35px;
+  margin-left: 4%;
+  padding: 15px 0px;
+  font-weight: 700;
+}
+
+.line {
+  flex: 1;                 
+  border-bottom: 1px solid rgb(177, 172, 172);
+  margin-right: 4%;
+}
+
+.form_left{
+
+    width: 50%;
+    border-right: 1px solid gray;
+}
+select{
+    font-size: 18px;
+    font-weight: 600;
+}
+input:focus{
+    outline: none;
+    border: 2px solid rgb(168, 168, 221);
+}
+ .form_right{
+    width: 50%;
+    
+} 
+.left_items{
+    margin: 0% 8%; 
+    font-size: 22px;
+}
+.right_items{
+    margin: 0% 8%;
+    font-size: 22px;
+}
+.left_items div{
+    margin-bottom: 15px;
+}
+.right_items div{
+    margin-bottom: 15px;
+}
+ .user_write_input{
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 15px 10px;
+} 
+
+ 
+button{
+    padding: 14px 28px;
+    font-size: 22px;
+}
